@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monisha M | Application Support Engineer & Python Developer</title>
+<meta name="description" content="Monisha M, Application Support Engineer with 5 years of L2/L3 production support across insurance, supply chain and property management. Python, SQL, Splunk, ServiceNow.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#EEF0F8;--ink:#171736;--blue:#3548FF;--peach:#FFD8C4;--muted:#5B5D7E;--line:#D3D6EA;--white:#fff}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font:400 17px/1.6 "Instrument Sans",system-ui,sans-serif}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.02;letter-spacing:-.02em}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}
+nav b{font:800 22px "Bricolage Grotesque",sans-serif}
+nav div{display:flex;gap:26px;font-weight:500}
+nav a{text-decoration:none}
+nav a:hover{color:var(--blue)}
+.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:center;padding:56px 0 88px}
+.hero h1{font-size:clamp(46px,8vw,104px);font-weight:800}
+.hero h1 span{display:block;color:var(--blue)}
+.hero p.lead{max-width:34em;margin:26px 0 32px;font-size:19px;color:var(--muted)}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn{padding:14px 26px;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid var(--ink)}
+.btn.p{background:var(--ink);color:var(--white)}
+.btn.p:hover{background:var(--blue);border-color:var(--blue)}
+.btn.s:hover{background:var(--peach)}
+.ticket{background:var(--white);border:2px solid var(--ink);border-radius:22px;padding:26px;box-shadow:10px 10px 0 var(--ink);transform:rotate(1.5deg);animation:drop .7s cubic-bezier(.2,.9,.3,1.2) both}
+@keyframes drop{from{opacity:0;transform:translateY(-40px) rotate(-5deg)}}
+.ticket h2{font-size:22px;margin-bottom:14px}
+.ticket dl{display:grid;grid-template-columns:auto 1fr;gap:9px 18px;font-size:15px}
+.ticket dt{color:var(--muted)}
+.ticket dd{font-weight:600}
+.ok{display:inline-block;background:#CFF5DC;border-radius:999px;padding:1px 12px;font-size:14px}
+section{padding:80px 0;border-top:2px solid var(--ink)}
+section>.wrap>h2{font-size:clamp(34px,5vw,60px);margin-bottom:40px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.stat{background:var(--peach);border-radius:20px;padding:26px}
+.stat b{display:block;font:800 40px "Bricolage Grotesque",sans-serif}
+.jobs{display:grid;gap:20px}
+.job{display:grid;grid-template-columns:200px 1fr;gap:28px;background:var(--white);border-radius:22px;padding:30px}
+.job time{color:var(--muted);font-weight:500}
+.job h3{font-size:26px;margin-bottom:4px}
+.job .co{color:var(--blue);font-weight:600;margin-bottom:12px}
+.job ul{padding-left:20px}.job li{margin:6px 0}
+.proj{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{border:2px solid var(--ink);border-radius:20px;padding:26px;background:var(--white)}
+.card:nth-child(2){background:var(--blue);color:var(--white)}
+.card h3{font-size:24px;margin-bottom:6px}
+.card small{display:block;margin-bottom:12px;opacity:.75}
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.grp{background:var(--white);border-radius:20px;padding:24px}
+.grp h3{font-size:20px;margin-bottom:12px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{border:1.5px solid var(--line);border-radius:999px;padding:4px 14px;font-size:15px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.two ul{list-style:none;padding:0}.two li{padding:10px 0;border-bottom:1px solid var(--line)}
+.contact{background:var(--ink);color:var(--white);border-radius:32px;padding:56px 40px;text-align:center}
+.contact h2{font-size:clamp(34px,6vw,70px);margin-bottom:16px}
+.contact p{color:#B9BCE0;max-width:32em;margin:0 auto 28px}
+.contact .btn{border-color:var(--peach);color:var(--ink);background:var(--peach)}
+footer{padding:36px 0;color:var(--muted);font-size:15px}
+@media(max-width:820px){.hero,.job,.proj,.skills,.two,.stats{grid-template-columns:1fr}nav div{gap:14px;font-size:15px}.ticket{transform:none}}
+@media(prefers-reduced-motion:reduce){.ticket{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><b>Monisha M</b><div><a href="#work">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero">
+<div>
+<h1>Keeping critical apps running.<span>Fixing what breaks.</span></h1>
+<p class="lead">I'm an Application Support Engineer with 5 years of L2/L3 production support across insurance, supply chain and property management. I find root causes with SQL and logs, and I use Python to automate repetitive support work.</p>
+<div class="btns"><a class="btn p" href="#contact">Get in touch</a><a class="btn s" href="#work">See my experience</a></div>
+</div>
+<aside class="ticket" aria-label="Profile summary">
+<h2>Profile</h2>
+<dl>
+<dt>Role</dt><dd>Application Support Engineer & Developer</dd>
+<dt>Now at</dt><dd>E4k Digital Agency</dd>
+<dt>Location</dt><dd>Chennai, India</dd>
+<dt>Focus</dt><dd>L2/L3 support, RCA, Python automation</dd>
+<dt>Status</dt><dd><span class="ok">Open to opportunities</span></dd>
+</dl>
+</aside>
+</header>
+</div>
+
+<section id="about"><div class="wrap">
+<h2>What I bring</h2>
+<div class="stats">
+<div class="stat"><b>5 years</b>Production and application support</div>
+<div class="stat"><b>3 domains</b>Insurance, supply chain, property management</div>
+<div class="stat"><b>L2 / L3</b>Incident, problem and change support</div>
+</div>
+</div></section>
+
+<section id="work"><div class="wrap">
+<h2>Experience</h2>
+<div class="jobs">
+<article class="job">
+<time>July 2023 – Present<br>Chennai</time>
+<div>
+<h3>Application Support Engineer & Developer</h3>
+<p class="co">E4k Digital Agency</p>
+<ul>
+<li>Provide L2/L3 support for critical supply chain applications (Echo and Uniform Express).</li>
+<li>Investigate issues using SQL analysis, log review and business process validation.</li>
+<li>Run impact analysis on changes and enhancements before deployment.</li>
+<li>Validate data movement across interconnected modules during integration work.</li>
+<li>Automate repetitive support tasks with Python to reduce manual effort.</li>
+<li>Write knowledge articles and user documentation for the Tanners property management system.</li>
+</ul>
+</div>
+</article>
+<article class="job">
+<time>July 2021 – July 2023<br>Coimbatore</time>
+<div>
+<h3>Application Support Engineer</h3>
+<p class="co">Hexaware Technologies · Client: Liverpool Victoria (Insurance)</p>
+<ul>
+<li>Resolved production incidents on critical insurance business applications.</li>
+<li>Performed Root Cause Analysis to understand business and technical impact.</li>
+<li>Took part in Major Incident Management and Problem Management.</li>
+<li>Worked with application, infrastructure and business teams to keep operations running.</li>
+<li>Maintained support documentation and knowledge repositories, and helped onboard new team members.</li>
+</ul>
+</div>
+</article>
+</div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+<h2>Projects</h2>
+<div class="proj">
+<div class="card"><h3>Echo & Uniform Express</h3><small>Supply chain management</small><p>L2/L3 support for business-critical supply chain applications, from SQL investigation and integration checks to Python automation of routine support tasks.</p></div>
+<div class="card"><h3>Tanners</h3><small>Property management system</small><p>Worked with stakeholders on requirements, sprint planning and walkthroughs, and wrote the documentation that helped users adopt the system.</p></div>
+<div class="card"><h3>Liverpool Victoria</h3><small>Insurance</small><p>Production incident resolution, RCA and major incident work for a large insurance client, with a focus on stability and clear documentation.</p></div>
+</div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Skills and tools</h2>
+<div class="skills">
+<div class="grp"><h3>Support</h3><div class="tags"><span>L2/L3 Support</span><span>Incident Management</span><span>Problem Management</span><span>Change Management</span><span>Root Cause Analysis</span><span>Release & Deployment Support</span><span>Log Analysis</span><span>Monitoring</span></div></div>
+<div class="grp"><h3>Tools</h3><div class="tags"><span>ServiceNow</span><span>Jira</span><span>Confluence</span><span>Splunk</span><span>PRTG</span><span>Autosys</span><span>Postman</span><span>Git</span><span>SQLyog</span></div></div>
+<div class="grp"><h3>Development</h3><div class="tags"><span>Python</span><span>Django</span><span>SQL</span><span>PL/SQL</span><span>MySQL</span><span>React.js</span><span>Next.js</span><span>REST APIs</span></div></div>
+<div class="grp"><h3>Also learning and using</h3><div class="tags"><span>Windows</span><span>Linux/Unix (basic)</span><span>Azure Fundamentals</span><span>AWS: EC2, IAM, S3 (basic)</span><span>Power BI (basic)</span><span>LLMs</span><span>LangChain</span><span>Vector Databases</span></div></div>
+</div>
+</div></section>
+
+<section id="education"><div class="wrap">
+<h2>Education and certifications</h2>
+<div class="two">
+<div class="grp"><h3>Education</h3><ul>
+<li><b>Master of Computer Application</b><br>Bharathiar University, Coimbatore · April 2026 – Present</li>
+<li><b>B.Sc Computer Technology</b><br>Sri Krishna Arts and Science College · 2018–2021 · First Class with Distinction, 87%</li></ul></div>
+<div class="grp"><h3>Certifications</h3><ul>
+<li>Outskill with Claude Certification (2026)</li>
+<li>Python Programming, GeeksforGeeks (2025)</li>
+<li>Data Science with Python Django, Simplilearn SkillUP (2024)</li>
+<li>MongoDB University (2023)</li>
+<li>Microsoft Azure Fundamentals AZ-900 (2022)</li></ul></div>
+</div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<div class="contact">
+<h2>Let's work together</h2>
+<p>Looking for an Application Support, Platform Support or Python role? I'd like to hear about it.</p>
+<!-- TODO: replace with your real email and LinkedIn URL -->
+<a class="btn" href="mailto:your-email@example.com">Email me</a>
+</div>
+</div></section>
+
+<div class="wrap"><footer>© 2026 Monisha M · Chennai, India</footer></div>
+</body>
+</html>
